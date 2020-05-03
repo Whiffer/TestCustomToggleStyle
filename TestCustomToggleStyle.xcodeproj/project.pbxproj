@@ -14,6 +14,8 @@
 		13D4250D245E271F00D86118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D4250C245E271F00D86118 /* Preview Assets.xcassets */; };
 		13D42510245E271F00D86118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D4250E245E271F00D86118 /* LaunchScreen.storyboard */; };
 		13D4251B245E271F00D86118 /* TestCustomToggleStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D4251A245E271F00D86118 /* TestCustomToggleStyleUITests.swift */; };
+		13D42527245E277C00D86118 /* ListSelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D42525245E277C00D86118 /* ListSelectionManager.swift */; };
+		13D42528245E277C00D86118 /* CheckmarkToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D42526245E277C00D86118 /* CheckmarkToggleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		13D42516245E271F00D86118 /* TestCustomToggleStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCustomToggleStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D4251A245E271F00D86118 /* TestCustomToggleStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomToggleStyleUITests.swift; sourceTree = "<group>"; };
 		13D4251C245E271F00D86118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D42525245E277C00D86118 /* ListSelectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSelectionManager.swift; sourceTree = "<group>"; };
+		13D42526245E277C00D86118 /* CheckmarkToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmarkToggleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				13D42503245E271E00D86118 /* AppDelegate.swift */,
 				13D42505245E271E00D86118 /* SceneDelegate.swift */,
 				13D42507245E271E00D86118 /* ContentView.swift */,
+				13D42526245E277C00D86118 /* CheckmarkToggleStyle.swift */,
+				13D42525245E277C00D86118 /* ListSelectionManager.swift */,
 				13D42509245E271F00D86118 /* Assets.xcassets */,
 				13D4250E245E271F00D86118 /* LaunchScreen.storyboard */,
 				13D42511245E271F00D86118 /* Info.plist */,
@@ -210,7 +216,9 @@
 			files = (
 				13D42504245E271E00D86118 /* AppDelegate.swift in Sources */,
 				13D42506245E271E00D86118 /* SceneDelegate.swift in Sources */,
+				13D42527245E277C00D86118 /* ListSelectionManager.swift in Sources */,
 				13D42508245E271E00D86118 /* ContentView.swift in Sources */,
+				13D42528245E277C00D86118 /* CheckmarkToggleStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

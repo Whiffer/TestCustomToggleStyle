@@ -9,8 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject private var selection = ListSelectionManager<Int>()
     var body: some View {
-        Text("Hello, World!")
+        List {
+            ForEach(1..<6) { i in
+                Toggle(isOn: self.$selection[i]) {
+                    Text("Hello, World \(i)")
+                }
+                .toggleStyle(CheckmarkToggleStyle())
+                
+                // When the custom toggle style is present:
+                // - Product Test will fail
+                // - Product Run does not have a problem
+                
+                // When the custom toggle style is commented out:
+                // - Product Test will succeed
+                // - The UI does NOT appear as desired
+            }
+        }
     }
 }
 
