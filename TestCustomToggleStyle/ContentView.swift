@@ -20,11 +20,12 @@ struct ContentView: View {
                 
                 // When the custom toggle style is present:
                 // - Product Test will fail
+                // - Failure occurs on Simulator, Device and macOS
                 // - Product Run does not have a problem
                 
                 // When the custom toggle style is commented out:
                 // - Product Test will succeed
-                // - The UI does NOT appear as desired
+                // - However, the UI does NOT appear as desired
             }
         }
     }
