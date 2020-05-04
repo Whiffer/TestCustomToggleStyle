@@ -12,7 +12,7 @@ struct CheckmarkToggleStyle: ToggleStyle {
     
     public func makeBody(configuration: CheckmarkToggleStyle.Configuration) -> some View {
         HStack {
-            (configuration.isOn ? Image("checkmark.circle.fill") : Image("circle"))
+            (configuration.isOn ? Image(systemName: "checkmark.circle.fill") : Image(systemName: "circle"))
                 .resizable()
                 .frame(width: 22, height: 22)
                 .foregroundColor(configuration.isOn ? .blue : .gray)

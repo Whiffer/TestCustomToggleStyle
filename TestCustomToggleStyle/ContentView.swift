@@ -17,15 +17,8 @@ struct ContentView: View {
                     Text("Hello, World \(i)")
                 }
                 .toggleStyle(CheckmarkToggleStyle())
-                
-                // When the custom toggle style is present:
-                // - Product Test will fail
-                // - Failure occurs on Simulator, Device and macOS
-                // - Product Run does not have a problem
-                
-                // When the custom toggle style is commented out:
-                // - Product Test will succeed
-                // - However, the UI does NOT appear as desired
+                // When this custom toggle style is present 'Product Test' will fail
+                // When the custom toggle style is commented 'Product Test' will succeed
             }
         }
     }

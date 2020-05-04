@@ -43,6 +43,7 @@
 		13D42525245E277C00D86118 /* ListSelectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSelectionManager.swift; sourceTree = "<group>"; };
 		13D42526245E277C00D86118 /* CheckmarkToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmarkToggleStyle.swift; sourceTree = "<group>"; };
 		13D42529245E4D7900D86118 /* TestCustomToggleStyle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestCustomToggleStyle.entitlements; sourceTree = "<group>"; };
+		13D4252C24609FF900D86118 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		13D424F7245E271E00D86118 = {
 			isa = PBXGroup;
 			children = (
+				13D4252C24609FF900D86118 /* README.md */,
 				13D42502245E271E00D86118 /* TestCustomToggleStyle */,
 				13D42519245E271F00D86118 /* TestCustomToggleStyleUITests */,
 				13D42501245E271E00D86118 /* Products */,
