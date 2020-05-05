@@ -15,3 +15,9 @@ This Xcode UI test case fails on all three platforms.  The issue seems to be tha
 # Without Custom Toggle Style Modifier
 
 When using the default Toggle Style, this Xcode UI test case is successful on all platforms.  However, the tableview cell does not have the desired custom layout.
+
+# Workaround:
+
+Move the .onTapGesture() from the Image to the HStack in the custom ToggleStyle.
+
+The UI Test will now succeed, however, the switch also changes state when the label is tapped, which does not occur for the DefaultToggleStyle().

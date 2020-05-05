@@ -16,8 +16,10 @@ struct CheckmarkToggleStyle: ToggleStyle {
                 .resizable()
                 .frame(width: 22, height: 22)
                 .foregroundColor(configuration.isOn ? .blue : .gray)
-                .onTapGesture(perform: { configuration.isOn.toggle() } )
+//                .onTapGesture(perform: { configuration.isOn.toggle() } )
             configuration.label
         }
+            // Workaround: Move the .onTapGesture() from the Image to the HStack
+        .onTapGesture(perform: { configuration.isOn.toggle() } )
     }
 }

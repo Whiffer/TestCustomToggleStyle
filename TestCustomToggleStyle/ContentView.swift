@@ -18,7 +18,7 @@ struct ContentView: View {
                 }
                 .toggleStyle(CheckmarkToggleStyle())
                 // When this custom toggle style is present 'Product Test' will fail
-                // When the custom toggle style is commented 'Product Test' will succeed
+                // Update: When the modified custom toggle style is present 'Product Test' now will succeed
             }
         }
     }
